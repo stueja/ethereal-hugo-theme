@@ -1,3 +1,7 @@
+A take on creating a HUGO theme from HTML5UP's / ajlkn's beautiful Ethereal theme.
+
+HTML5UP's / ajlkn's terms, conditions and readme:
+
 Ethereal by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)

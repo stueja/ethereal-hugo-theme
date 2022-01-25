@@ -1,7 +1,8 @@
 panel:
   enable: true
-  template: panels/panel.html
   id: home
+  template: panels/panel.html
+  weight: 1
 
 panelcss:
   type: banner

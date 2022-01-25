@@ -1,0 +1,32 @@
+panel:
+  enable: true
+  id: second
+  template: panels/spotlight.html
+  weight: 2
+
+panelcss:
+  type: spotlight
+  size: medium
+  orientation: right
+
+introcss:
+  type: content
+  span: span-7
+
+intro:
+  content: '<h2 class="major">Sed etiam aenean</h2> <p>Mauris et ligula arcu. 
+    Proin dapibus convallis accumsan. Lorem maximus hendrerit orci, sit amet 
+    elementum massa hendrerit sed. Donec et ullamcorper ligula. Suspendisse 
+    amet potenti. Ut pretium libero eleifend euismod sed tristique. Quisque 
+    dictum magna risus, id ultricies justo sagittis vitae. Sed id odio tempor, 
+    porttitor elit amet, gravida hendrerit fringilla lorem ipsum dolor.</p> '
+
+innercss:
+  type: image
+  filtered: filtered
+  tinted: tinted
+  dataposition: top left
+
+inner:
+  imgsrc: images/pic02.jpg
+  imgalt: alternative image text

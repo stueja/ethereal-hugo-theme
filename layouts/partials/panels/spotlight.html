@@ -1,0 +1,9 @@
+						<!-- Panel (Spotlight) -->
+                        <section class="panel {{ .panelcss.type }} {{ .panelcss.size }} {{ .panelcss.orientation }}" id="{{ .panel.id }}">
+                            <div class="{{ .introcss.type }} {{ .introcss.span }}">
+                                {{ .intro.content | safeHTML }}
+									</div>
+                                    <div class="{{ .innercss.type }} {{ .innercss.filtered }} {{ .innercss.tinted }}" data-position="{{ .innercss.dataposition }}">
+                                        <img src="{{ .inner.imgsrc }}" alt="{{ .inner.imgalt }}" />
+								</div>
+							</section>

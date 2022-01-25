@@ -6,7 +6,7 @@
 					<div id="wrapper">
 
     <!--- ADD PANELS --->
-    {{ $panels:= site.Data.panels }}
+    {{ $panels := site.Data.panels }}
     {{ if (index site.Data site.Language.Lang).panels }}
       {{ $panels = (index site.Data site.Language.Lang).panels }}
     {{ end }}

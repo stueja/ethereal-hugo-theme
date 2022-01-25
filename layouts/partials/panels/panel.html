@@ -1,6 +1,6 @@
 						<!-- Panel (Banner) -->
-                        <section class="panel {{ .panelcss.type }} {{ .panelcss.orientation }}" id="{{ .panel.id }}">
-                            <div class="{{ .introcss.type }} {{ .introcss.color }} {{ .introcss.span }}">
+                        <section class="{{ .panelcss }}" id="{{ .panel.id }}">
+                            <div class="{{ .introcss }}">
                                 {{ .intro.content | safeHTML }}
                                 {{ if .intro.navigationEnabled }}
 									<ul class="actions">
@@ -8,7 +8,7 @@
 									</ul>
                                 {{ end }}
 								</div>
-                                <div class="image {{ .innercss.filtered }} {{ .innercss.span }}" data-position="{{ .innercss.dataposition }}">
+                                <div class="{{ .innercss }}" data-position="{{ .dataposition }}">
                                     <img src="{{ .inner.imgsrc }}" alt="{{ .inner.imgalt }}" />
 								</div>
 							</section>

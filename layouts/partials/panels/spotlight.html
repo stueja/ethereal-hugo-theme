@@ -1,9 +1,9 @@
 						<!-- Panel (Spotlight) -->
-                        <section class="panel {{ .panelcss.type }} {{ .panelcss.size }} {{ .panelcss.orientation }}" id="{{ .panel.id }}">
-                            <div class="{{ .introcss.type }} {{ .introcss.span }}">
+                        <section class="{{ .panelcss }}" id="{{ .panel.id }}">
+                            <div class="{{ .introcss }}">
                                 {{ .intro.content | safeHTML }}
 									</div>
-                                    <div class="{{ .innercss.type }} {{ .innercss.filtered }} {{ .innercss.tinted }}" data-position="{{ .innercss.dataposition }}">
+                                    <div class="{{ .innercss }}" data-position="{{ .dataposition }}">
                                         <img src="{{ .inner.imgsrc }}" alt="{{ .inner.imgalt }}" />
 								</div>
 							</section>

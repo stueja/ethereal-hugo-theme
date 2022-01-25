@@ -4,14 +4,9 @@ panel:
   template: panels/panel.html
   weight: 1
 
-panelcss:
-  type: banner
-  orientation: right
+panelcss: panel banner right
 
-introcss:
-  type: content
-  color: color0
-  span: span-3-75
+introcss: content color0 span-3-75
 
 intro:
   content: '<h1 class="major">Hello, my name<br /> is Ethereal</h1>
@@ -22,10 +17,9 @@ intro:
   navigationEnabled: true
   href: "#second"
 
-innercss:
-  filtered: filtered
-  span: span-1-75
-  dataposition: 25% 25%
+innercss: image filtered span-1-75
+
+dataposition: 25% 25%
 
 inner:
   imgsrc: images/pic01.jpg

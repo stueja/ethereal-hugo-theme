@@ -4,14 +4,9 @@ panel:
   template: panels/spotlight.html
   weight: 2
 
-panelcss:
-  type: spotlight
-  size: medium
-  orientation: right
+panelcss: panel spotlight medium right
 
-introcss:
-  type: content
-  span: span-7
+introcss: content span-7
 
 intro:
   content: '<h2 class="major">Sed etiam aenean</h2> <p>Mauris et ligula arcu. 
@@ -21,11 +16,9 @@ intro:
     dictum magna risus, id ultricies justo sagittis vitae. Sed id odio tempor, 
     porttitor elit amet, gravida hendrerit fringilla lorem ipsum dolor.</p> '
 
-innercss:
-  type: image
-  filtered: filtered
-  tinted: tinted
-  dataposition: top left
+innercss: image filtered tinted
+
+dataposition: top left
 
 inner:
   imgsrc: images/pic02.jpg

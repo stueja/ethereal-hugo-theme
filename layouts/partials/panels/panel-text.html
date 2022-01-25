@@ -1,0 +1,14 @@
+						<!-- Panel (Banner) -->
+                        <section class="{{ .panelcss }}" id="{{ .panel.id }}">
+                            <div class="{{ .introcss }}">
+                                {{ .intro.content | safeHTML }}
+                                {{ if .intro.navigationEnabled }}
+									<ul class="actions">
+                                        <li><a href="{{ .intro.href }}" class="button primary color1 circle icon solid fa-angle-right">Next</a></li>
+									</ul>
+                                {{ end }}
+								</div>
+                                <div class="{{ .innercss }}" data-position="{{ .dataposition }}">
+                                    {{ .inner.content | safeHTML }}
+								</div>
+							</section>

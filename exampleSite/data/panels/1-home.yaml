@@ -1,0 +1,31 @@
+panel:
+  enable: true
+  template: panels/panel.html
+  id: home
+
+panelcss:
+  type: banner
+  orientation: right
+
+introcss:
+  type: content
+  color: color0
+  span: span-3-75
+
+intro:
+  content: '<h1 class="major">Hello, my name<br /> is Ethereal</h1>
+    <p>This is <strong>Ethereal</strong>, a free site template by AJ for 
+    <a href="https://html5up.net">HTML5 UP</a>. It’s fully responsive, 
+    built on HTML5 and CSS3, and released entirely for free under the 
+    Creative Commons license. Hope you dig it :)</p>'
+  navigationEnabled: true
+  href: "#second"
+
+innercss:
+  filtered: filtered
+  span: span-1-75
+  dataposition: 25% 25%
+
+inner:
+  imgsrc: images/pic01.jpg
+  imgalt: alternative image text

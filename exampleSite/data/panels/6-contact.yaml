@@ -1,0 +1,54 @@
+panel:
+  enable: true
+  id: sixth
+  template: panels/contact.html
+  weight: 6
+
+panelcss: panel color4-alt
+
+introcss: intro color4
+
+intro:
+  content: '<h2 class="major">Contact</h2> <p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue 
+    pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus 
+    volutpat magna etiam.</p> '
+
+innercss: inner columns divided
+
+postlink: "#"
+tagspan: span-3-25
+boxspan: span-1-5
+boxcolor: color1
+
+
+links:
+  - link:
+    name: Twitter
+    href: "#"
+    linkname: "@untitled-tld"
+    icon: fa-twitter
+
+  - link:
+    name: Facebook
+    href: "#"
+    linkname: facebook.com/untitled
+    icon: fa-facebook-f
+
+  - link:
+    name: Snapchat
+    href: "#"
+    linkname: "@untitled-tld"
+    icon: fa-snapchat-ghost
+
+  - link:
+    name: Instagram
+    href: "#"
+    linkname: "@untitled-tld"
+    icon: fa-instagram
+
+  - link:
+    name: Nedium
+    href: "#"
+    linkname: medium.com/untitled
+    icon: fa-medium-m
+

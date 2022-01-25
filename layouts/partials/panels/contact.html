@@ -1,0 +1,36 @@
+						<!-- Panel -->
+                            <section class="{{ .panelcss }}" id="{{ .panel.id }}">
+                                <div class="{{ .introcss }}">
+                                    {{ .intro.content | safeHTML }}
+								</div>
+                                <div class="{{ .innercss }}">
+                                    <div class="{{ .tagspan }}">
+                                        <form method="post" action="{{ .postlink }}">
+											<div class="fields">
+												<div class="field half">
+													<label for="name">Name</label>
+													<input type="text" name="name" id="name" />
+												</div>
+												<div class="field half">
+													<label for="email">Email</label>
+													<input type="email" name="email" id="email" />
+												</div>
+												<div class="field">
+													<label for="message">Message</label>
+													<textarea name="message" id="message" rows="4"></textarea>
+												</div>
+											</div>
+											<ul class="actions">
+												<li><input type="submit" value="Send Message" class="button primary" /></li>
+											</ul>
+										</form>
+									</div>
+                                    <div class="{{ .boxspan }}">
+                                        <ul class="contact-icons {{ .boxcolor }}">
+                                            {{ range .links }}
+                                            <li class="icon brands {{ .icon }}"><a href="{{ .href }}">{{ .linkname }}</a></li>
+                                            {{ end }}
+										</ul>
+									</div>
+								</div>
+							</section>

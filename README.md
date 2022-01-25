@@ -15,10 +15,9 @@ Ethereal, which combines a robust side-scrolling framework of my own creation (w
 look and feel, a lightbox gallery, tons of customization options, and, of course, full
 responsiveness. Hope you dig it :)
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
+Demo images courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
 you can use for pretty much whatever.
 
-(* = not included)
 
 AJ
 aj@lkn.io | @ajlkn

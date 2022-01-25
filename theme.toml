@@ -2,20 +2,20 @@
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
 name = "Ethereal"
-license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
-homepage = "http://example.com/"
-tags = []
+license = "CC 3.0"
+licenselink = "https://github.com/stueja/ethereal-hugo-theme/blob/main/LICENSE"
+description = "HTML5UP's Ethereal theme for hugo"
+homepage = "https://github.com/stueja/ethereal-hugo-theme"
+tags = [theme, hugo-theme, hugo, html5up, ssg, ethereal, ssg-hugo]
 features = []
-min_version = "0.41.0"
+min_version = "0.92.0"
 
 [author]
-  name = ""
-  homepage = ""
+  name = "stueja"
+  homepage = "https://github.com/stueja/ethereal-hugo-theme/"
 
 # If porting an existing theme
 [original]
-  name = ""
-  homepage = ""
+  name = "Ethereal by HTML5UP / ajlkn"
+  homepage = "https://html5up.net"
   repo = ""

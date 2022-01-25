@@ -1,0 +1,29 @@
+{{ define "main" }}
+	<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Wrapper -->
+					<div id="wrapper">
+
+    <!--- ADD PANELS --->
+    {{ $panels:= site.Data.panels }}
+    {{ if (index site.Data site.Language.Lang).panels }}
+      {{ $panels = (index site.Data site.Language.Lang).panels }}
+    {{ end }}
+
+    {{ if $panels }}
+      {{ range sort $panels "panel.weight" }}
+        {{ if .panel.enable }}
+            {{ if .panel.template }}
+              {{- partial .panel.template . -}}
+            {{ else }}
+              {{- partial (printf "panels/%s.html" (replace (lower .panel.id) " " "-")) . -}}
+            {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+                    </div>
+            </div>
+
+{{ end }}
